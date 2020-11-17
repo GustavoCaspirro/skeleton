@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "skeleton"
+  "defaultProject": "skeleton",
+  "cli": {
+    "analytics": false
+  }
 }

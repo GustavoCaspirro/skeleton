@@ -1,0 +1,10 @@
+<section>
+  <div>
+    <app-skeleton-loader *ngIf="loading" currentWidth="128" currentHeight="128" marginBottom="30" circle="true"></app-skeleton-loader>
+    <img *ngIf="!loading" src="../../assets/img/leao.jpg" alt="Leão">
+    <app-skeleton-loader *ngIf="loading" currentWidth="214" currentHeight="37" marginBottom="40"></app-skeleton-loader>
+    <h1 *ngIf="!loading">Ferocious Lion</h1>
+    <app-skeleton-loader *ngIf="loading" currentWidth="224" currentHeight="25"></app-skeleton-loader>
+    <p *ngIf="!loading">The lion is a species of carnivorous mammal of the genus Panthera and of the family Felidae.</p>
+  </div>
+</section>
