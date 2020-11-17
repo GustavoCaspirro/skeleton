@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { MyStyles } from '../my-styles.model';
 
 @Component({
@@ -6,7 +6,7 @@ import { MyStyles } from '../my-styles.model';
   templateUrl: './skeleton-loader.component.html',
   styleUrls: ['./skeleton-loader.component.scss']
 })
-export class SkeletonLoaderComponent implements OnInit {
+export class SkeletonLoaderComponent{
 
   @Input()
   currentWidth: string | null = null;
@@ -19,11 +19,6 @@ export class SkeletonLoaderComponent implements OnInit {
 
   @Input()
   marginBottom: string | null = null;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
   getStyles(): MyStyles {
     const MY_STYLES: MyStyles = {
