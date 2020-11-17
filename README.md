@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # URL
 
-[Preview Skeleton Loader](skeleton.github.io)
+[Preview Skeleton Loader](https://skeleton-caspirro.web.app/)
 
 ## Development server
 
